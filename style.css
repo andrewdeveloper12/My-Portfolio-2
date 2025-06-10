@@ -1,0 +1,154 @@
+
+
+body{
+   margin: 0;
+    padding: 0;
+    /* height: 10000 px; */
+}/* Start Portofolio */
+.port-img{
+  /* width:85%; */
+  overflow: hidden;
+  position: relative;
+}
+.port-img:hover .port-overlay{
+  opacity: 0.9;
+
+}
+.port-overlay{
+  position: absolute;
+  top: 5px;
+  bottom: 5px;
+  right: 5px;
+  left: 5px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.901);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+}
+
+.overlay-icons{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.overlay-icons span{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 30px;
+  height: 30px;
+  margin-left: 4px;
+  background-color: black;
+  border-radius: 50px;
+  color: white;
+}
+.overlay-icons span:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+}
+
+.nav-tabs{
+  max-width: 500px;
+  margin: 15px;
+}
+
+.nav-tabs .nav-item .active{
+  background-color: white;
+  color: black;
+  position: relative;
+}
+.nav-tabs .nav-item .active::after{
+  content: "";
+  background-color: black;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: all 0.3s ease-in-out;
+}
+
+.nav-tabs .nav-item{
+  background-color: white;
+  color: black;
+}
+
+/* End Portofolio */
+.navbar {
+  min-height: 56px;
+
+}
+
+.navbar-brand {
+  color: rgb(115, 31, 31) !important;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: xx-large;
+}
+
+.navbar-toggler {
+  background-color: rgb(130, 128, 128);
+}
+
+.navbar-collapse {
+  background-color: gray;
+}
+
+.navbar-nav .nav-link {
+  color: aliceblue !important;
+}
+
+.dropdown-menu {
+  background-color: gray;
+}
+
+.dropdown-item {
+  color: rgb(9, 9, 9) !important;
+}
+
+.jumbotron {
+  border-radius: 0%;
+  height: auto;
+  background-color: rgb(12, 46, 46);
+}
+
+.fixed-size {
+  max-height: 460px;
+  overflow: hidden;
+}
+
+img.fixed-size {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 750px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .navbar-brand, .navbar-nav .nav-link, .dropdown-menu .dropdown-item {
+    font-size: larger;
+  }
+  
+  .jumbotron .row {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .jumbotron .col-md-8, .jumbotron .col-md-4 {
+    width: 100%;
+    text-align: center;
+  }
+
+  .jumbotron img {
+    width: 80%;
+    height: auto;
+  }
+}

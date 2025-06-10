@@ -1,0 +1,650 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+.body
+{
+    background-image:url(img/2018_12_14_16_36_20_288.jpg);
+    background-color: #000;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-bottom: 800px;
+    font-size: larger;
+.container{
+    max-width: 1350px;
+}
+    
+}
+header
+{
+    width: auto;
+    overflow: auto;
+
+}
+
+.logo img
+{
+    float: left;
+    width: 170px;
+    padding-left: 170px;
+    padding-top: 30px;
+}
+
+nav
+{
+    float: right;
+    padding-top: 47px;
+    padding-left: 60px;
+    
+}
+
+nav ul {
+    width: auto;
+    
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    list-style: none;
+    
+}
+
+nav ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: large;
+    padding: 5px 9px;
+}
+h4
+{
+    font-size: larger;
+    font-family:text/css;
+}
+.text h1{
+    color:#fff;
+    font-size: 70px;
+    font-family:text/css;
+}
+.text p  
+{
+    color: #e8e5e5;
+    font-size: x-large;
+    font-family:text/css;
+} 
+
+.text 
+{
+color: #fff;
+padding-left: 60px;
+text-align: center;
+padding: 12% 12%;
+font-size: large;
+font-family:text/css;
+
+}
+
+
+.buttons
+{
+margin: auto;
+font-size: xx-large;
+}
+button
+{
+    width: 100px;
+    height: 45px;
+    font-family:text/css;
+    border-color: white;
+    
+}
+.btn-1
+{
+    background-color: rgb(143, 129, 111);
+    color: #fff;
+    font-family:text/css;
+    border-color: rgb(247, 246, 244);
+}
+.btn-2
+{
+    background-color: transparent;
+    color: #fff;
+    font-family:text/css;
+}
+
+.box
+{
+    width: 160px;
+padding-top: 390px;
+padding-left: 160px;
+display: inline-block;
+float: left;
+clear: both;
+}
+.box h2 
+{
+float: left 300px;
+
+
+}
+
+.sup2
+{
+    padding-top: 440px;
+    padding-left: 850px;
+    font-weight: 100;
+    font-family:text/css;
+    color: #817e7e;
+    font-size: medium;
+    
+
+}
+.sup2 p{
+line-height: 2;
+
+}
+.sup2 ul li 
+{
+    padding-top: 20px;
+    border: #c8bcbc;
+    list-style-type: none;
+
+    
+
+}
+span1::after
+{
+    content: "|";
+    animation-name: typing;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    color: aqua;
+}
+
+@keyframes typing
+{
+    0%
+    {
+        content: "|"
+    }
+    3%
+    {
+        content: "S|"
+    }
+    6%
+    {
+        content: "So|"
+    }
+    9%
+    {
+        content: "Sof|"
+    }
+    12%
+    {
+        content: "Soft|"
+    }
+    15%
+    {
+        content: "Softw|"
+    }
+    18%
+    {
+        content: "Softwa|"
+    }
+    21%
+    {
+        content: "Softwar|"
+    }
+    24%
+    {
+        content: "Software|"
+    }
+    27%
+    {
+        content: "Softwares|"
+    }
+    30%
+    {
+        content: "Softwares|"
+    }
+    33%
+    {
+        content: "Softwares|"
+    }
+    36%
+    {
+        content: "Software|"
+    }
+    39%
+    {
+        content: "Softwar|"
+    }
+    40%
+    {
+        content: "Softwa|"
+    }
+    42%
+    {
+        content: "Softw|"
+    }
+    44%
+    {
+        content: "Soft|"
+    }
+    46%
+    {
+        content: "Sof|"
+    }
+    48%
+    {
+        content: "So|"
+    }
+    50%
+    {
+        content: "S|"
+    }
+    52%
+    {
+        content: "|"
+    }
+    54%
+    {
+        content: "a|"
+    }
+    56%
+    {
+        content: "ap|"
+    }
+    58%
+    {
+        content: "app|"
+    }
+    60%
+    {
+        content: "apps|"
+    }
+    62%
+    {
+        content: "apps|"
+    }
+    64%
+    {
+        content: "apps|"
+    }
+    66%
+    {
+        content: "app|"
+    }
+    68%
+    {
+        content: "ap|"
+    }
+    70%
+    {
+        content: "a|"
+    }
+    72%
+    {
+        content: "|"
+    }
+    74%
+    {
+        content: "w|"
+    }
+    76%
+    {
+        content: "we|"
+    }
+    78%
+    {
+        content: "web|"
+    }
+    80%
+    {
+        content: "webs|"
+    }
+    82%
+    {
+        content: "websi|"
+    }
+    84%
+    {
+        content: "websit|"
+    }
+    86%
+    {
+        content: "website|"
+    }
+    88%
+    {
+        content: "websites|"
+    }
+    90%
+    {
+        content: "websites|"
+    }
+    91%
+    {
+        content: "websites|"
+    }
+    92%
+    {
+        content: "website|"
+    }
+    93%
+    {
+        content: "websit|"
+    }
+    94%
+    {
+        content: "websi|"
+    }
+    95%
+    {
+        content: "webs|"
+    }
+    96%
+    {
+        content: "web|"
+    }
+    97%
+    {
+        content: "we|"
+    }
+    98%
+    {
+        content: "w|"
+    }
+    100%
+    {   
+        content: "|"
+    }
+}
+.list-img
+{
+    border: solid rgb(145, 141, 141) 1px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+
+h1
+{
+    font-weight: 200;
+    color: #292828;
+}
+span
+{
+    vertical-align: 15px;
+    line-height: 2;
+    
+}
+.max
+{
+
+    width: 180px;
+padding-top: 200px;
+padding-right: 500px;
+display: inline-block;
+float: right ;
+clear: both;
+}
+
+
+.sup4
+{
+    
+font-weight: 100;
+font-family:text/css;
+color: #817e7e;
+font-size: medium;
+padding-bottom: 5px;
+padding-bottom: 10px;
+padding-top: 230px;
+padding-left: 170px;
+
+}
+.sup4 p
+{
+    line-height: 2;
+}
+.sup4 h1
+{
+    font-weight: 200;
+    color: #363535;
+}
+.container-2
+{
+    background-color: #0b0909; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 670px;
+    margin-top: 150px;
+}
+.container-2 h1
+{
+color: #fff;
+}
+.container-2 p {
+    color: #fff;
+}
+.sweet h2
+{
+    text-align: center;
+    font-family: text/css;
+    font-weight: 200;
+    color: #292828;
+
+}
+.sweet p{
+    text-align: center;
+    font-family: text/css;
+    font-size: 17px;
+    color: #817e7e;
+}
+
+.img123 {
+    display: flex;
+    justify-content: center;
+    padding-left: 35px; 
+}
+
+.img123 img {
+    margin-right: 40px; 
+}
+
+.img123 h3
+{
+    text-align: center;
+    padding-right: 20px;
+    font-weight: 200;
+    color: #363535;
+    font-family: text/css;
+
+}
+.img123 p
+{
+    font-size: 17px;
+    padding-right: 30px;
+    line-height: 2;
+
+}
+
+.container-7 iframe
+{
+    float: right;
+    padding-top: 80px;
+    padding-right: 120px;
+    height: 520px;
+    
+}
+.sup8
+{
+    
+font-weight: 100;
+font-family:text/css;
+color: #bab8b8;
+font-size: medium;
+padding-bottom: 5px;
+padding-bottom: 10px;
+padding-top: 100px;
+padding-left: 170px;
+
+}
+.sup8 p
+{
+    line-height: 2;
+    padding-left: 30px;
+    text-align: left;
+}
+.sup8 h1
+{
+    font-weight: 200;
+    color: #f3e8e8;
+    padding-left: 30px;
+}
+.container-7
+{
+    background-color: #0b0606; 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    height: 670px;
+    margin-top: 150px;
+
+}
+.sup8 ul li 
+{
+    padding-top: 20px;
+    padding-left: 25px;
+    border: #655a5a;
+    list-style-type: none;
+    
+}
+.sup8 p
+{
+    color: #adabab;
+}
+
+
+.container10{
+
+    height: 414px;
+    padding: 90px 10% 0px;
+    background-color: #0c0a07;
+
+}
+.container10 .f1{
+    width: 22%;
+    height: 400px;
+    float: left;
+    padding-right: 5px;
+
+
+}
+.container10 .f2{
+padding-right: 5px;
+    width: 22%;
+    height: 400px;
+    
+    margin-left: 20px;
+    margin-left: 50px;
+    float: left;
+    
+line-height: 40px;
+
+}
+.container10 .f3{
+    width: 22%;
+    height: 400px;
+ float: right;
+ padding-right: 5px;
+ line-height: 50px;
+}
+.container10 .f4{
+padding-right: 5px;
+    width: 22%;
+    height: 400px;
+margin-right: 20px;
+margin-right: 50px;
+float: right;
+line-height: 40px;
+}
+
+.container10 p{
+color: rgb(241, 241, 241);
+
+}
+.container10 h3{
+color: azure;
+
+
+}
+
+.container10 .location{
+float: left;
+
+    width: 30px;
+    height: 35px;
+    margin-top: 8px;
+}
+
+
+.container10 .phone{
+float: left;
+    width: 25px;
+    height: 30px;
+    margin-top: 8px;
+}
+
+.container10 .email{
+float: left;
+    width: 25px;
+    height: 30px;
+    margin-top: 8px;
+}
+
+
+
+.container10 .arrow{
+float: left;
+    width: 30px;
+    height: 30px;
+    margin-top: 8px;
+}
+
+.container10 hr{
+
+color: darkgray;
+background-color: rgb(9, 4, 4);
+
+}
+
+.final{
+padding: 60px 0px;
+width: 100%;
+background-color: #120e08;
+text-align: center;
+
+}
+.final .img{
+width: 355px;
+margin: auto;
+
+}
+
+.final p{
+
+    color: rgb(237, 229, 229);
+}
+.final .icon{
+
+    border-radius: 50%;
+    width: 50px;
+    background-color: #f0efed;
+}
+
+
+
+
